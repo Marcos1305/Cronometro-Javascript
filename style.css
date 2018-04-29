@@ -1,0 +1,94 @@
+body{
+    font-family: 'Karla', sans-serif;
+
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    
+ 
+}
+.timer{
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 300px;
+    text-align: center;
+    
+ 
+}
+.sec{
+    width:33%;
+    margin-left: auto;
+}
+.min{
+    width:33%;
+    margin: 0 auto;
+}
+.hour{
+    text-align: center;
+    margin-right: auto;
+    width:33%;
+}
+.numbers{
+    display: inline-block;
+    
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+.buttons {
+    background: rgba(73,155,234,1);
+    background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(144,212,247,1) 38%, rgba(144,212,247,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(38%, rgba(144,212,247,1)), color-stop(100%, rgba(144,212,247,1)));
+    background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(144,212,247,1) 38%, rgba(144,212,247,1) 100%);
+    background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(144,212,247,1) 38%, rgba(144,212,247,1) 100%);
+    background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(144,212,247,1) 38%, rgba(144,212,247,1) 100%);
+    background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(144,212,247,1) 38%, rgba(144,212,247,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#90d4f7', GradientType=1 );
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-control{
+    
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    height: 60px;
+    width: 100px;
+    margin: 0 30px;
+    padding: 20px;
+    text-align: center;
+    
+    box-shadow: none;
+    border: none;
+    transition: ease 0.2s 0.2s;
+}
+.green{
+    color: white;
+    background-color:#32cd32;
+}
+.yellow{
+    color: white;
+    background-color:#3399ff;
+}
+.red{
+    color: white;
+    background-color:#ff4500;
+}
+.btn-control:hover{
+    height: 75px;
+  }
